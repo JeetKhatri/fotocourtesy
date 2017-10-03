@@ -9,8 +9,8 @@ public class DBConnection {
 
 	public static Connection getConnection() {
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn =DriverManager.getConnection("jdbc:mysql://127.4.228.2:3306/photography","admin8INXilU","tITlmjdXlbpr");
+			Class.forName("com.mysql.jdbc.Driver"); 
+			Connection conn =DriverManager.getConnection("jdbc:mysql://mysql:3306/sampledb","user","password");
             //Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/photography", "root", "root");
 			if (conn != null)
 			{
