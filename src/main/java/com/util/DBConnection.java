@@ -12,7 +12,7 @@ public class DBConnection {
 			Class.forName("com.mysql.jdbc.Driver"); 
 			//Connection conn =DriverManager.getConnection("jdbc:mysql://mysql:3306/sampledb","user","password");
             //Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/photography", "root", "root");
-			connection conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12230123","sql12230123","9Y5VZmlPqn");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12230123","sql12230123","9Y5VZmlPqn");
 			//Connection conn = DriverManager.getConnection("jdbc:mysql://65.19.141.67:3306/sharvil_fotocourtesy","sharvil_wp614","urvilsh@H1628");
 			if (conn != null)
 			{
